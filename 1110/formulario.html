@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu amigo cão</title>
+</head>
+<body>
+    <h3>Faça o seu agendamento com pelo menos 48 horas de antecedência</h3>
+<fieldset>
+    <legend>Identificação do dono do animal</legend>
+    <p><label>Nome:</label><input type="text" placeholder="Digite o nome completo do dono do animal" size="40"></p>
+    <p><label>Endereço:</label><input type="text" placeholder="Digite o Endereço" size="40"></p>
+    <p><label>CEP:</label><input type="number" placeholder="XXXXX-XX"></p>
+    <p><label>Email:</label><input type="email" placeholder="Digite o endereço de email" size="40"></p>
+    <p><label>Tel/Cel:</label><input type="number" placeholder="99 99999-9999"></p>
+</fieldset>
+<fieldset>
+    <legend>Animal</legend>
+    <p><label>Nome:</label><input type="text" placeholder="Digite o nome do animal" size="30"></p>
+    <p><label>Porte do cão:</label><input type="radio" name="porte" value="pequeno"><label>pequeno</label>
+    <input type="radio" name="porte" value="medio"><label>médio</label>
+    <input type="radio" name="porte" value="grande"><label>grande</label></p>
+    <p><label>Tipo de tosa:</label>
+        <select name="nenhuma"><option value="Nenhuma">Nenhuma</option>
+        <option value="tosa padrao">Tosa Padrão</option>    
+        <option value="tosa higienica">Tosa Higiênica</option>
+        <option value="tosa na tesoura">Tosa na Tesoura</option>
+        <option value="tosa da raça">Tosa da Raça</option>
+        <option value="tosa bebe">Tosa Bebê</option>
+        </select></p>
+    <p><label>Observações:</label><textarea cols="30" rows="2" placeholder="Digite alguma informação sobre o animal"></textarea></p>
+</fieldset>
+<fieldset>
+    <legend>Horário - (Não atendemos de domingo e segunda-feira)</legend>
+    <p><label>Indique os dias da semana de sua preferência:</label></p>
+    <input type="checkbox" name="semana"><label>Terça-Feira</label>
+    <input type="checkbox" name="semana"><label>Quarta-Feira</label>
+    <input type="checkbox" name="semana"><label>Quinta-Feira</label>
+    <input type="checkbox" name="semana"><label>Sexta-Feira</label>
+    <input type="checkbox" name="semana"><label>Sábado</label>
+    <p><label>Primeira opção de horário:</label><input type="date"></p>
+    <p><label>Segunda opção de horário:</label><input type="date"></p>  
+</fieldset>
+<input type="submit">
+<p>Atendimento: atendimento@meuamigocaopetshop.com • (0XX)99999-9999 / (0XX)9999-9999</p>
+</body>
+</html>
