@@ -8,8 +8,34 @@
 <body>
     <form action="../1010/obrigado.html">
         <p>Data de nascimento</p>
-        <input type="text">
-        <input type= "submit">
+        <input type="date">
+        <p>Horário da consulta</p>
+        <input type="time">
+        <p>Quantas consultas deseja marcar?</p>
+        <input type="number">
+        <fieldset>
+            <legend>Dias da semana</legend>
+            <p>Qual o dia da semana?</p>
+            <input type="checkbox" name="semana">
+            <label for="">Segunda<label><br>
+            <input type="checkbox" name="semana">
+            <label for="">Terça</lbel><br>
+            <input type="checkbox" name="semana">
+            <label for="">Quarta</abel><br>
+            <input type="checkbox" name="semana">
+            <label for="">Quinta</abel><br>
+            <input type="checkbox" name="semana">
+            <label for="">Sexta</label><br>
+        </fieldset>
+        <label for="">Indicado por</label>
+        <input type="text" value="Rodrigo" disabled><br>
+        
+        <label>maxlength</label>
+        <input type="text" maxlength="5"><br>
+        <label for="">size</label>
+        <input type="text" size="10"><br>
+        <input type="reset" value="Limpar">
+        <input type= "submit" value="Enviar">
     </form>    
 </body>
 </html>
