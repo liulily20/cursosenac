@@ -4,4 +4,4 @@
 
 # Diário de bordo
 
-18/10/2023 Atividades 1 à 6 do livro finalizadas (página 61)
+18/10/2023 Atividades 1 à 6 do livro finalizadas, atividade 7 iniciada (parei na página 77)
